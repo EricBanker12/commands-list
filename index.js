@@ -73,7 +73,9 @@ module.exports = function commandsList(dispatch) {
                 for (let command of commands) {
                     command = [name, command.slice(6)]
                     try {command[1] = eval(command[1])}
-                    catch (err) {console.log(err)}
+                    catch (err) {
+                        // do nothing
+                    }
                     if (Array.isArray(command[1])) {
                         command[1] = command[1].toString().replace(/,/igm, '", "')
                     }

@@ -1,4 +1,4 @@
-## No More Noctenium Lag
+## Commands List
 Tera-Proxy module. Lists the in-game commands for other modules.
 ### How to
 Use the command `/8 commands` or `/8 coms`.
